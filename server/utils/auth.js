@@ -1,4 +1,6 @@
 const jwt = require('jsonwebtoken');
+const graphql = require('graphql');
+const graphqlMiddleware = require('graphql-middleware');
 
 // set token secret and expiration date
 const secret = 'mysecretsshhhhh';
