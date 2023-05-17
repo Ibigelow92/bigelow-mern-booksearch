@@ -174,11 +174,13 @@ You'll need to create the following front-end files:
 Additionally, you’ll need to complete the following tasks in each of these front-end files:
 
 * `App.js`: Create an Apollo Provider to make every request work with the Apollo Server.
-<!-- DONE? -->
+<!-- Still need to figure out Apollo provider -->
 	
 * `SearchBooks.js`:
+<!-- DONE -->
 
 	* Use the Apollo `useMutation()` Hook to execute the `SAVE_BOOK` mutation in the `handleSaveBook()` function instead of the `saveBook()` function imported from the `API` file.
+
 
 	* Make sure you keep the logic for saving the book's ID to state in the `try...catch` block! 
 
